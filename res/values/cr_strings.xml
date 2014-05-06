@@ -6,6 +6,7 @@
     <!-- About phone screen, crDroid version -->
     <string name="crdroid_version_title">crDroid</string>
     <string name="crdroid_version_default">Unknown</string>
+     <string name="default_string">Default</string>
 
     <!-- General strings -->
     <string name="recents_panel_settings_title" >Recents panel settings</string>

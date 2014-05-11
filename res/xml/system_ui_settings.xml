@@ -34,6 +34,10 @@
         android:fragment="com.android.settings.cyanogenmod.NotificationDrawer"
         android:title="@string/notification_drawer_title" />
 
+    <PreferenceScreen
+        android:key="recent_panel"
+        android:fragment="com.android.settings.crdroid.RecentPanelSettings"
+        android:title="@string/recent_panel_settings_title" />
 
     <PreferenceCategory
             android:key="expanded_desktop_category"
@@ -77,7 +81,11 @@
             android:title="@string/navbar_enable_bar"
             android:summary="@string/navbar_enable_bar_summary" />
 
-
+	<PreferenceScreen
+            android:key="navbar_dimen_settings"
+            android:fragment="com.android.settings.crdroid.NavbarDimenSettings"
+            android:title="@string/navbar_style_dimen_title" 
+	    android:dependency="enable_nav_bar" />
 
         <PreferenceScreen
             android:key="navigation_bar"

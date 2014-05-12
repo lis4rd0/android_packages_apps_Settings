@@ -2068,12 +2068,9 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
 
-=======
         
 		<!-- Telo -->
-        <activity android:name=".telokang.activedisplay.ActiveDisplaySettings" /> 
 	
         <activity android:name=".telokang.teloradio.TeloRadioSettings"
             android:label="@string/telo_radio_settings_title"
@@ -2095,7 +2092,6 @@
         
         <!-- Telo - FIN -->
 		
->>>>>>> 8304242... [2/3]TeloRadio packages_apps_Settings
         <receiver android:name=".widget.SettingsAppWidgetProvider"
                 android:label="@string/gadget_title"
                 android:exported="false"

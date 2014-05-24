@@ -55,6 +55,7 @@
             android:key="lockscreen_modlock_enabled"
             android:title="@string/lockscreen_enable_modlock_title" />
 
+
     </PreferenceCategory>
 
     <PreferenceCategory
